@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(240, 252, 248)
+}
+
+.location-container, header {
+    margin: auto, 0; 
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    height: 20px;
+}
+
+button {
+    height: 25px;
+}
+/* header, nav, h1, .location-placeholder {
+
+}
+ */
+
+.weather, .map {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.weather-container {
+    height: 400px;
+    background-color: aquamarine;
+    width: 500px;
+    border: solid 1px black;
+}
+
+ 

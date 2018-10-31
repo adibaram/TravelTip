@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>TravelTip</title>
+</head>
+<body>
+    <header>
+        <h1>TravelTip</h1>
+        <nav>
+            <input type="text"/><button class="search-btn">GO</button> <button class="my-location-btn">My Location</button>
+        </nav>
+    </header>
+
+    <section class="location-container">
+        <h2 class="location-placeholder">Location: <span class="curr-location"></span></h2>
+        <button>Copy Location</button>
+    </section>
+
+    <section class="weather map">
+        <div class="weather-container">
+            <h3>Current weather</h3>
+            <img/>
+        </div>
+        <div id="map" style="width: 100%; height: 400px;"></div>
+    </section>  
+    <script src="lib/sweetalert.js"></script>
+    <script src="lib/axios.js"></script>
+    <script type="module" src="js/main.js"></script>
+    
+</body>
+</html>
